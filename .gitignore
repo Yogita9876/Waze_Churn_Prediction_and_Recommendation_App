@@ -1,0 +1,123 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+.python-version
+
+# ML-specific
+*.joblib
+*.pkl
+*.h5
+*.model
+*.pt
+*.pth
+mlruns/
+mlflow.db
+wandb/
+lightning_logs/
+runs/
+logs/
+
+# Data (uncomment if you don't want to track data files)
+# data/raw/*
+# data/processed/*
+# !data/raw/.gitkeep
+# !data/processed/.gitkeep
+
+# Models (uncomment if you don't want to track model files)
+# models/*
+# !models/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+jupyter_notebooks/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Streamlit
+.streamlit/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Other
+*.bak
+*.tmp
+*.temp
+.history/
