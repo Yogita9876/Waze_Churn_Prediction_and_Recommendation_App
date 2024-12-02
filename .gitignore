@@ -42,15 +42,15 @@ lightning_logs/
 runs/
 logs/
 
-# Data (uncomment if you don't want to track data files)
-# data/raw/*
-# data/processed/*
-# !data/raw/.gitkeep
-# !data/processed/.gitkeep
+Data (uncomment if you don't want to track data files)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
-# Models (uncomment if you don't want to track model files)
-# models/*
-# !models/.gitkeep
+Models (uncomment if you don't want to track model files)
+models/*
+!models/.gitkeep
 
 # IDE
 .idea/
